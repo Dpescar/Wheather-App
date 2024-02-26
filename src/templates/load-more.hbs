@@ -1,0 +1,32 @@
+<ul class='wheather-whole-data-more-info-container'>
+  {{#each forecasts}}
+
+    <li class='wheather-whole-data-more-info-item'>
+      <p class='current-more-info-time'>{{time}}</p>
+      <img class='icon-more-info-wheather' src='{{icon}}' width='50' height='50' />
+      <div class='current-more-info-temperature'>{{temperature}}&deg</div>
+      <div class='container-more-info-wheather-parameters-pressure'>
+        <p class='text-more-info-wheather-parameters'>{{pressure}}mm</p>
+      </div>
+      <div class='container-more-info-wheather-parameters-humidity'>
+        <p class='text-more-info-wheather-parameters'>{{humidity}} %</p>
+      </div>
+      <div class='container-more-info-wheather-parameters-wind'>
+        <p class='text-more-info-wheather-parameters'>{{windSpeed}} m/s</p>
+      </div>
+    </li>
+
+  {{/each}}
+
+</ul>
+<div class='buttons-more-info-scroll'>
+  <button
+    id='left-button-more-info'
+    type='button'
+    class='left-button-more-info'
+    class='button-more-info-arrow-hiden'
+  >
+    <img src='{{arrowLeftIcon}}' /></button>
+  <button id='right-button-more-info' type='button' class='right-button-more-info'>
+    <img src='{{arrowRightIcon}}' /></button>
+</div>

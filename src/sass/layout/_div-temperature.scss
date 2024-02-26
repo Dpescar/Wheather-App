@@ -1,0 +1,161 @@
+.wheather-main-container {
+  width: 280px;
+  height: 190px;
+  background: #102136;
+  /* shadow */
+  box-shadow: 0px 8px 43px rgba(16, 33, 54, 0.6);
+  border-radius: 34px;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: 768px) {
+    width: 500px;
+    height: 300px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-right: 0px;
+    width: 450px;
+    height: 300px;
+    border-radius: 34px 0px 0px 34px;
+  }
+}
+
+.wheather-whole-data-container {
+  width: 167px;
+  height: 131px;
+  margin: 30px 58px 29px 55px;
+  padding-top: 25px;
+
+  @media screen and (min-width: 768px) {
+    width: 120px;
+    height: 235px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 18px;
+    line-height: 0.81;
+    margin: 29px 190px 36px 140px;
+  }
+}
+
+.icon-wheather {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.city-name {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 0.84;
+  align-items: center;
+  text-align: center;
+  color: #767d85;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  line-height: normal;
+}
+
+.values-container {
+  display: flex;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+}
+
+.current-temperature {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 0.84;
+  letter-spacing: 0.04em;
+  color: white;
+  margin-right: 20px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 26px;
+    margin-right: 0px;
+    text-align: right;
+    font-weight: 300;
+    font-size: 90px;
+    line-height: 0.83;
+  }
+}
+
+.min-max-temperature-container {
+  padding-top: 5px;
+  display: flex;
+
+  @media screen and (min-width: 768px) {
+    padding-left: 10px;
+  }
+}
+
+.min-temperature,
+.max-temperature {
+  text-align: center;
+  padding-left: 10px;
+}
+.min-temperature {
+  padding-right: 10px;
+  @media screen and (min-width: 768px) {
+    padding-right: 16px;
+  }
+}
+
+.max-temperature {
+  @media screen and (min-width: 768px) {
+    padding-left: 16px;
+  }
+}
+
+.min-t-text,
+.max-t-text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 0.82;
+  align-items: center;
+  text-align: center;
+  color: #767d85;
+  padding-bottom: 5px;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 0.81;
+    padding-bottom: 10px;
+  }
+}
+
+.t-divider {
+  width: 0px;
+  height: 35px;
+  border: 1px solid #27384a;
+  @media screen and (min-width: 768px) {
+    height: 40px;
+  }
+}
+
+.min-t-value,
+.max-t-value {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 0.82;
+  /* identical to box height */
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  color: #ffffff;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 0.81;
+  }
+}
